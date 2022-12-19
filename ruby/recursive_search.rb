@@ -1,5 +1,8 @@
 def recursive_search(arr, target)
-  # type your code in here
+  arr.each do |value|
+    return true if value == target
+  end
+  false
 end
 
 if __FILE__ == $PROGRAM_NAME
